@@ -1,6 +1,10 @@
 {
   "name": "ERM Bot",
-  "logo": "/logo/ermlogo.png",
+"logo": {
+  "light": "/logo/ERMLogoDocsLightMode.svg",
+  "dark": "/logos/ERMDocsTitleDark.svg",
+  "href": "https://ermbot.mintlify.app/welcome"
+},
   "favicon": "/favicon.svg",
   "colors": {
     "primary": "#db514f",
