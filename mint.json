@@ -3,9 +3,9 @@
   "logo": "/logo/ermlogo.png",
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#F86B6B",
+    "primary": "#db514f",
     "light": "#fc9f9f",
-    "dark": "#f55555"
+    "dark": "#db4a4a"
   },
   "topbarLinks": [
     {
