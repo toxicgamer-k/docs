@@ -13,31 +13,45 @@ icon: "hammer"
 </Info>
 
 <Steps>
-  <Step title="Invite">
+  <Step title="Invite" titleSize="h2">
     Ensure you have **Administrator** permissions in the Discord that you're wanting to setup ERM in. Then, [invite the bot.](https://discord.com/oauth2/authorize?client_id=978662093408591912\&permissions=8\&scope=bot%20applications.commands)
   </Step>
 
-  <Step title="Setup">
+  <Step title="Setup" titleSize="h2">
     Once you have invited the bot, you can then run the `/setup` command.
   </Step>
 
-  <Step title="Basic Settings">
+  <Step title="Basic Settings" titleSize="h2">
     Heres where you will setup the roles and bot prefix.  &#x20;
 
-    ## Role Breakdown
+    ### Role Breakdown
+  </Step>
+
+  <Step title="LOA Requests" titleSize="h2">
+    This setting enables or disables the LOA Requests module. When enabled, this allows your staff members to fill out Leave of Absence requests for your management members to approve.
+  </Step>
+
+  <Step title="RA Requests" titleSize="h2">
+    RA Requests, also called Reduced Activity Requests, are a form of Leave of Absence where the staff member isn't required to complete the full quota, but expects that they will be able to complete it partially.
+  </Step>
+
+  <Step title="ROBLOX Punishments" titleSize="h2">
+    The ROBLOX Punishments module allows for members of your Staff Team to log punishments against a ROBLOX player using ERM! You can specify custom types of punishments, where they will go, as well as manage and search individual punishments.
+
+    This setting toggles the ROBLOX Punishments module. When enabled, staff members will be able to use `/punish`, and management members will be able to additionally use `/punishment manage`
+  </Step>
+
+  <Step title="Shift Management" titleSize="h2">
+    The Shift Management module allows for staff members to log how much time they were in-game, or moderating, or on as a staff member. It allows for a comprehensive guide of who is the most active in your staff team.
+
+    When enabled, staff members will be able to run `/duty` commands to manage their shift, see how much time they have, as well as see how much time other people have. Management members will be able to administrate people's shifts, add time, remove time, and clear people's shifts.
   </Step>
 </Steps>
 
-<Tabs>
-  <Tab title="Staff Role">
-    \> A staff role is the role that is going to be able to use most ERM commands. You'd assign this role to the people you want to be able to use ERM's core functionalities.
-  </Tab>
+<Check>
+  **Setup Complete!**
 
-  <Tab title="Admin Role">
-    \> An admin role is the role that can manage LOAs, RAs & other peoples' shifts but it can not use server manage and config.
-  </Tab>
+  You are now setup with ERM, and have finished the Setup Process! If you'd like to change any of these settings, use `/config`
+</Check>
 
-  <Tab title="Management Role">
-    A management role is the roles of your server management members. These people will be able to delete punishments, modify people's shift time, and accept LOA Requests.
-  </Tab>
-</Tabs>
+> You can also configure ERM settings using our all-new [dashboard!](https://www.ermbot.xyz/)
