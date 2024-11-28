@@ -2,7 +2,7 @@
   "name": "ERM Bot",
 "logo": {
   "light": "/logo/ERMLogoDocsLightMode.svg",
-  "dark": "/logos/ERMDocsTitleDark.svg",
+  "dark": "/logo/ERMDocsTitleDark.svg",
   "href": "https://ermbot.mintlify.app/welcome"
 },
   "favicon": "/favicon.svg",
