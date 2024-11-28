@@ -58,7 +58,7 @@
     },
     {
       "group": "Dashboard",
-      "pages": ["groups-dashboard/basicsettings"]
+      "pages": ["dashboard/basicsettings", "dashboard/loarequestsdb"]
     }
   ],
   "integrations": {
