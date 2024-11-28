@@ -5,7 +5,7 @@
   "dark": "/logo/ERMDocsTitleDark.svg",
   "href": "https://ermbot.mintlify.app/welcome"
 },
-  "favicon": "/favicon.svg",
+  "favicon": "/logo/ermlogo.png",
   "colors": {
     "primary": "#db514f",
     "light": "#fc9f9f",
