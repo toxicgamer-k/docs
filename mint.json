@@ -7,6 +7,10 @@
     "light": "#fc9f9f",
     "dark": "#db4a4a"
   },
+  "background": {
+    "light": "#fc9f9f",
+    "dark": "#dc494a"
+  },
   "topbarLinks": [
     {
       "name": "Support Server",
