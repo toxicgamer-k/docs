@@ -3,7 +3,9 @@ title: "Setup"
 description: "Instructions on setting up ERM in your server. "
 icon: "hammer"
 ---
+
 ![Setup](/images/bannersetup.png)
+
 <Steps>
   <Step title="Invite" titleSize="h2">
     Ensure you have **Administrator** permissions in the Discord that you're wanting to setup ERM in. Then, [invite the bot.](https://discord.com/oauth2/authorize?client_id=978662093408591912\&permissions=8\&scope=bot%20applications.commands)
@@ -16,13 +18,24 @@ icon: "hammer"
   <Step title="Basic Settings" titleSize="h2">
     Heres where you will setup the roles and bot prefix.  &#x20;
 
-    > **Role Breakdown**
+    <Frame caption="Basic Settings - ermbot.xyz">
+      ![Alt text for the image](/images/setupss.png)
+    </Frame>
 
-    * **<u>Staff Role:</u>** A staff role is the role that is going to be able to use most ERM commands. You'd assign this role to the people you want to be able to use ERM's core functionalities.
+## Role Breakdown
+    <AccordionGroup>
+      <Accordion title="Staff Role">
+        A staff role is the role that is going to be able to use most ERM commands. You'd assign this role to the people you want to be able to use ERM's core functionalities.
+      </Accordion>
 
-    * **<u>Admin Role:</u>** An admin role is the role that can manage LOAs, RAs & other peoples' shifts but it can not use server manage and config.
+      <Accordion title="Admin Role">
+        An admin role is the role that can manage LOAs, RAs & other peoples' shifts but it can not use server manage and config.
+      </Accordion>
 
-    * **<u>Management Role:</u>** A management role is the roles of your server management members. These people will be able to delete punishments, modify people's shift time, and accept LOA Requests.
+      <Accordion title="Management Role">
+        CA management role is the roles of your server management members. These people will be able to delete punishments, modify people's shift time, and accept LOA Requests.
+      </Accordion>
+    </AccordionGroup>
   </Step>
 
   <Step title="LOA Requests" titleSize="h2">
