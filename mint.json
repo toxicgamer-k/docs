@@ -21,10 +21,6 @@
       "url": "https://discord.gg/ermbot"
     }
   ],
-  "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://ermbot.xyz"
-  },
   "tabs": [
     {
       "name": "API Reference",
@@ -35,7 +31,7 @@
     {
       "name": "Dashboard",
       "icon": "book-open-cover",
-      "url": "https://ermbot.xyz"
+      "url": ""
     },
     {
       "name": "Community",
@@ -55,7 +51,6 @@
         "introduction",
         "quickstart",
         "development"
-        "welcome.mdx"
       ]
     },
     {
