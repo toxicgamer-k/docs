@@ -41,9 +41,9 @@
   }
   ],
   "footerSocials": {
-    "github": "https://github.com/mintlify",
-    "slack": "https://mintlify.com/community",
-    "x": "https://x.com/mintlify"
+    "github": "https://github.com/MikeyUsersREC/ERM",
+    "youtube": "https://www.youtube.com/@ermbot",
+    "x": "https://twitter.com/ermpy"
   },
   "integrations": {
     "intercom": "APP_ID",
