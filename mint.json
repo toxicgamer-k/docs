@@ -57,5 +57,9 @@
   "integrations": {
     "intercom": "APP_ID",
     "frontchat": "CHAT_ID"
-  }
+  },
+  "feedback": {
+  "thumbsRating": true,
+  "suggestEdit": true
+}
 }
