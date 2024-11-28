@@ -37,7 +37,7 @@
   "navigation": [
     {
       "group": "test-group",
-      "pages": ["test-group/testpage.mdx"]
+      "pages": ["test-group/testpage"]
     },
 
   ],
