@@ -18,12 +18,12 @@
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "https://discord.gg/ermbot"
     }
   ],
   "topbarCtaButton": {
     "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "url": "https://ermbot.xyz"
   },
   "tabs": [
     {
@@ -55,6 +55,7 @@
         "introduction",
         "quickstart",
         "development"
+        "welcome"
       ]
     },
     {
