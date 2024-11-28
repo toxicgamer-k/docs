@@ -46,7 +46,7 @@
 "navigation": [
   {
     "group": "ERM Bot",
-    "pages": ["welcome"]
+    "pages": ["welcome", "setup"]
   }
   ],
   "footerSocials": {
