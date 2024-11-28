@@ -39,8 +39,6 @@
     "group": "Your Group Name",
     "pages": ["test-group/testpage"]
   }
-]
-
   ],
   "footerSocials": {
     "github": "https://github.com/mintlify",
