@@ -49,11 +49,43 @@
     "pages": ["welcome", "setup", "commands"]
   }
   ],
-  "footerSocials": {
+"footer": {
+  "copyright": "©Mikey",
+  "socials": {
     "github": "https://github.com/MikeyUsersREC/ERM",
-    "youtube": "https://www.youtube.com/@ermbot",
-    "x": "https://twitter.com/ermpy"
+    "twitter": "https://x.com/ermpy",
+    "youtube": "https://www.youtube.com/@ermbot/videos"
+    "tiktok": "https://www.tiktok.com/@ermdiscord"
   },
+  "links": [
+    {
+      "title": "ERM Systems",
+      "links": [
+        {
+          "name": "Privacy Policy",
+          "url": "https://www.ermbot.xyz/privacy"
+        },
+        {
+          "name": "Terms of Service",
+          "url": "https://www.ermbot.xyz/terms"
+        }
+      ]
+    },
+    {
+      "title": "Resources",
+      "links": [
+        {
+          "name": "Add ERM",
+          "url": "https://discord.com/oauth2/authorize?client_id=978662093408591912&permissions=8&scope=bot%20applications.commands"
+        },
+        {
+          "name": "Try out ERM Analytics",
+          "url": "https://analytics.ermbot.xyz/"
+        }
+      ]
+    }
+  ]
+},
   "integrations": {
     "intercom": "APP_ID",
     "frontchat": "CHAT_ID"
