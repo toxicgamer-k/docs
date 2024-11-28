@@ -1,87 +1,64 @@
 {
-  "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Mintlify",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
-    "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
-    }
+    "primary": "#16A34A",
+    "light": "#4ADE80",
+    "dark": "#166534"
   },
   "topbarLinks": [
     {
-      "name": "Support",
-      "url": "https://discord.gg/ermbot"
+      "name": "Contact Us",
+      "url": "mailto:support@mintlify.com"
     }
   ],
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
+  "topbarCtaButton": {
+    "name": "Get Started",
+    "url": "https://1tc7vihvbit.typeform.com/to/pZJ31XZB"
+  },
   "anchors": [
     {
-      "name": "Dashboard",
-      "icon": "book-open-cover",
-      "url": ""
+      "name": "API Components",
+      "icon": "rectangle-terminal",
+      "color": "#f59f0b",
+      "url": "api-components"
     },
     {
       "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "icon": "comments",
+      "color": "#2564eb",
+      "url": "https://discord.gg/MPNgtSZkgK"
     }
   ],
   "navigation": [
     {
-      "group": "Get Started",
-      "pages": [
-        "introduction",
-        "quickstart",
-        "development"
-      ]
+      "group": "Getting Started",
+      "pages": ["introduction", "quickstart"]
     },
     {
-      "group": "Essentials",
-      "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
-      ]
+      "group": "API Components",
+      "pages": ["api-playground/overview", "api-playground/configuration"]
     },
     {
-      "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
+      "group": "Settings",
+      "pages": ["settings/global", "settings/page"]
     },
     {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
-      ]
+      "group": "Analytics",
+      "pages": ["analytics/posthog"]
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
     "github": "https://github.com/mintlify",
-    "linkedin": "https://linkedin.com/company/mintlify"
+    "slack": "https://mintlify.com/community",
+    "x": "https://x.com/mintlify"
+  },
+  "integrations": {
+    "intercom": "APP_ID",
+    "frontchat": "CHAT_ID"
   }
 }
