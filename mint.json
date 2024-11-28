@@ -25,8 +25,26 @@
       "url": "api-components"
     },
     {
-      "name": "Discord Support Server",
+      "name": "Support",
       "icon": "discord",
+      "color": "#f55555",
+      "url": "https://discord.gg/ermbot"
+    }
+        {
+      "name": "Invite ERM",
+      "icon": "link",
+      "color": "#f55555",
+      "url": "https://discord.com/oauth2/authorize?client_id=978662093408591912&permissions=8&scope=bot%20applications.commands"
+    }
+        {
+      "name": "Dashboard",
+      "icon": "laptop",
+      "color": "#f55555",
+      "url": "https://discord.gg/ermbot"
+    }
+            {
+      "name": "Mod Panel",
+      "icon": "hammer",
       "color": "#f55555",
       "url": "https://discord.gg/ermbot"
     }
