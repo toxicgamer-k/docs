@@ -34,11 +34,12 @@
       "url": "https://discord.gg/ermbot"
     }
   ],
-  "navigation": [
-    {
-      "group": "test-group",
-      "pages": ["testpage"]
-    },
+"navigation": [
+  {
+    "group": "Your Group Name",
+    "pages": ["test-group/testpage"]
+  }
+]
 
   ],
   "footerSocials": {
