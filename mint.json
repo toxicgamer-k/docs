@@ -1,24 +1,24 @@
 {
-  "name": "Mintlify",
+  "name": "ERM Bot",
   "logo": {
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#4ADE80",
-    "dark": "#166534"
+    "primary": "#F86B6B",
+    "light": "#fc9f9f",
+    "dark": "#f55555"
   },
   "topbarLinks": [
     {
-      "name": "Contact Us",
-      "url": "mailto:support@mintlify.com"
+      "name": "Support Server",
+      "url": "https://discord.gg/ermbot"
     }
   ],
   "topbarCtaButton": {
-    "name": "Testing!",
-    "url": "https://1tc7vihvbit.typeform.com/to/pZJ31XZB"
+    "name": "Dashboard",
+    "url": "https://ermbot.xyz"
   },
   "anchors": [
     {
