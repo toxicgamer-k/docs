@@ -59,7 +59,6 @@
     "frontchat": "CHAT_ID"
   },
   "feedback": {
-  "thumbsRating": true,
-  "suggestEdit": true
+  "thumbsRating": true
 }
 }
