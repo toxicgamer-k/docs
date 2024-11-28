@@ -50,13 +50,13 @@
   }
   ],
 "footer": {
-  "copyright": "©Mikey",
   "socials": {
     "github": "https://github.com/MikeyUsersREC/ERM",
     "twitter": "https://x.com/ermpy",
     "youtube": "https://www.youtube.com/@ermbot/videos"
     "tiktok": "https://www.tiktok.com/@ermdiscord"
-  },
+  }
+},
   "integrations": {
     "intercom": "APP_ID",
     "frontchat": "CHAT_ID"
