@@ -47,6 +47,10 @@
   {
     "group": "ERM Bot",
     "pages": ["welcome", "setup", "commands"]
+  },
+  {
+    "group": "Dashboard",
+    "pages": ["groups-dashboard/basicsettings"]
   }
   ],
   "integrations": {
