@@ -1,0 +1,25 @@
+---
+title: 'Game Security'
+description: 'Configure game security'
+---
+
+Game Security is a module that aims to protect private servers from abuse of administrative privileges. As of right now, this module only applies to private servers of Emergency Response: Liberty County. This module aims to protect and secure private servers by detecting if a staff member runs a potentially abusive command, and notifying management of this incident.
+
+<Frame caption="Game Security - ermbot.xyz">
+  ![LOA](/images/gamesecuritydb.png)
+</Frame>
+
+## Webhook Channel
+
+This is the channel that ERM will monitor for any mass kicking or banning actions. For this to work properly, it is essential that this channel is set as the destination for your ER:LC kick and ban logs. This ensures that all relevant data is captured and monitored effectively within the server.
+![Webhook](/images/webhookchanneldb.png)
+
+## Alert Channel
+
+This is the channel where the bot will send alerts in the event of any mass kicking or banning actions. Be sure to select a channel that is accessible to your management and staff if you want them to be able to view these alerts.
+![Alert](/images/alertchanneldb.png)
+
+## Alerted Roles
+
+These are the role(s) that the bot will notify in the event of any mass kicking or banning actions. By assigning specific roles here, you ensure that the appropriate team members are promptly alerted and can take necessary actions or review the situation as needed.
+![Alerted](/images/alertedrolesdb.png)
