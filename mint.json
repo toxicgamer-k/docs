@@ -54,7 +54,7 @@
   "navigation": [
     {
       "group": "ERM Bot",
-      "pages": ["welcome", "setup", "commands"]
+      "pages": ["/pages/ErmBot/welcome", "/pages/ErmBot/setup", "/pages/ErmBot/commands"]
     },
     {
       "group": "Dashboard",
