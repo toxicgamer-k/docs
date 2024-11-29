@@ -22,3 +22,17 @@ This is the role that will be assigned to staff members when they are on-duty, a
 
 This channel will be used to log all shift-related actions. The actions recorded will include: Shift Start, Shift End, Break Start, Break End, and Manual Shift Management updates. You can configure specific logging channels for different custom shift types.
 ![ShiftChannel](/images/shiftchanneldb.png)
+
+## Shift Quota
+
+This will set the required quota in hours that server staff must meet. When using commands like `/duty time`, `/activity show`, or viewing the staff management page on the dashboard, the bot will display which staff members have met the quota.
+![ShiftQuota](/images/shiftquotadb.png)
+
+## NIckname Prefix
+
+This will be the prefix that the bot automatically adds to a staff member's nickname when they clock in. This helps clearly identify staff members who are currently on duty.
+![NicknamePrefix](/images/nicknameprefixdb.png)
+
+## Maximum Staff
+This will establish a limit on the maximum number of staff members who can be clocked in at the same time. Once the limit is reached, no additional staff will be able to clock in until someone else clocks out.
+![MaxStaff](/images/maximumstaffdb.png)
