@@ -58,7 +58,7 @@
     },
     {
       "group": "Dashboard",
-      "pages": ["dashboard/dashboardoverview", "dashboard/basicsettingsdb", "dashboard/loarequestsdb", "dashboard/rasettingsdb", "dashboard/shiftmanagementdb"]
+      "pages": ["dashboard/dashboardoverview", "dashboard/basicsettingsdb", "dashboard/loarequestsdb", "dashboard/rasettingsdb", "dashboard/shiftmanagementdb", "dashboard/punishmentsettingsdb"]
     }
   ],
   "integrations": {
