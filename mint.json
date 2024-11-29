@@ -58,7 +58,7 @@
     },
     {
       "group": "Dashboard",
-      "pages": ["dashboard/basicsettingsdb", "dashboard/loarequestsdb"]
+      "pages": ["dashboard/basicsettingsdb", "dashboard/loarequestsdb", "dashboard/shiftmanagementdb"]
     }
   ],
   "integrations": {
