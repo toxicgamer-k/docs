@@ -52,26 +52,24 @@
     }
   ],
   "navigation": [
-    {
-      "group": "ERM Bot",
-      "pages": ["/pages/ErmBot/welcome", "/pages/ErmBot/setup", "/pages/ErmBot/commands"]
-    },
-    {
-      "group": "Dashboard",
-      "pages": ["pages/Dashboard/dashboardoverview", "pages/Dashboard/basicsettingsdb", "pages/Dashboard/loarequestsdb", "pages/Dashboard/rasettingsdb", "pages/Dashboard/shiftmanagementdb", "pages/Dashboard/punishmentsettingsdb", "pages/Dashboard/gamesecuritydb", "pages/Dashboard/gameloggingdb", "pages/Dashboard/antipingsettingsdb", "pages/Dashboard/remindersdb"]
-    },
+  {
+    "group": "ERM Bot",
+    "pages": ["/pages/ErmBot/welcome", "/pages/ErmBot/setup", "/pages/ErmBot/commands"]
+  },
+  {
+    "group": "Dashboard",
+    "pages": ["pages/Dashboard/dashboardoverview", "pages/Dashboard/basicsettingsdb", "pages/Dashboard/loarequestsdb", "pages/Dashboard/rasettingsdb", "pages/Dashboard/shiftmanagementdb", "pages/Dashboard/punishmentsettingsdb", "pages/Dashboard/gamesecuritydb", "pages/Dashboard/gameloggingdb", "pages/Dashboard/antipingsettingsdb", "pages/Dashboard/remindersdb"]
+  },
   {
     "group": "Change Log",
     "pages": ["/pages/Changelogs/web1.4"]
   }
 ],
-    {
-  "integrations": {
-    "intercom": "APP_ID",
-    "frontchat": "CHAT_ID"
-  },
-  "feedback": {
-    "thumbsRating": true
-  },
-  "theme": "prism"
-}
+"integrations": {
+  "intercom": "APP_ID",
+  "frontchat": "CHAT_ID"
+},
+"feedback": {
+  "thumbsRating": true
+},
+"theme": "prism"
