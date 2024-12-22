@@ -62,7 +62,7 @@
     }
     {
       "group": "Change Log",
-      "pages": ["/pages/Changelogs/web1.4"],
+      "pages": ["/pages/Changelogs/web1.4",]
     },
   ],
   "integrations": {
