@@ -65,6 +65,7 @@
       "pages": ["/pages/Changelogs/web1.4"]
     },
   ],
+    {
   "integrations": {
     "intercom": "APP_ID",
     "frontchat": "CHAT_ID"
