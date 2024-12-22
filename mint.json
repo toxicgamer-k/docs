@@ -1,88 +1,71 @@
 {
-    "name": "ERM Bot",
-    "logo": {
-        "light": "/logo/ERMLogoDocsLightMode.svg",
-        "dark": "/logo/ERMDocsTitleDark.svg",
-        "href": "https://ermbot.mintlify.app/welcome"
-    },
-    "favicon": "/logo/ermlogo.png",
-    "colors": {
-        "primary": "#db514f",
-        "light": "#fc9f9f",
-        "dark": "#db4a4a"
-    },
-    "background": {
-        "light": "#fc9f9f",
-        "dark": "#dc494a"
-    },
-    "topbarLinks": [
-        {
-            "name": "Support Server",
-            "url": "https://discord.gg/ermbot"
-        }
-    ],
-    "topbarCtaButton": {
-        "name": "Dashboard",
-        "url": "https://ermbot.xyz"
-    },
-    "anchors": [
-        {
-            "name": "Support",
-            "icon": "discord",
-            "color": "#f55555",
-            "url": "https://discord.gg/ermbot"
-        },
-        {
-            "name": "Invite ERM",
-            "icon": "link",
-            "color": "#f55555",
-            "url": "https://discord.com/oauth2/authorize?client_id=978662093408591912&permissions=8&scope=bot%20applications.commands"
-        },
-        {
-            "name": "Dashboard",
-            "icon": "laptop",
-            "color": "#f55555",
-            "url": "https://discord.gg/ermbot"
-        },
-        {
-            "name": "Mod Panel",
-            "icon": "hammer",
-            "color": "#f55555",
-            "url": "https://discord.gg/ermbot"
-        }
-    ],
-    "navigation": [
-        {
-            "group": "ERM Bot",
-            "pages": [
-                "/pages/ErmBot/welcome",
-                "/pages/ErmBot/setup",
-                "/pages/ErmBot/commands"
-            ]
-        },
-        {
-            "group": "Dashboard",
-            "pages": [
-                "pages/Dashboard/dashboardoverview",
-                "pages/Dashboard/basicsettingsdb",
-                "pages/Dashboard/loarequestsdb",
-                "pages/Dashboard/rasettingsdb",
-                "pages/Dashboard/shiftmanagementdb",
-                "pages/Dashboard/punishmentsettingsdb",
-                "pages/Dashboard/gamesecuritydb",
-                "pages/Dashboard/gameloggingdb",
-                "pages/Dashboard/antipingsettingsdb",
-                "pages/Dashboard/remindersdb"
-            ]
-        }
-    ],
-    "integrations": {
-        "intercom": "APP_ID",
-        "frontchat": "CHAT_ID"
-    },
-    "feedback": {
-        "thumbsRating": true
+  "name": "ERM Bot",
+"logo": {
+  "light": "/logo/ERMLogoDocsLightMode.svg",
+  "dark": "/logo/ERMDocsTitleDark.svg",
+  "href": "https://ermbot.mintlify.app/welcome"
+},
+  "favicon": "/logo/ermlogo.png",
+  "colors": {
+    "primary": "#db514f",
+    "light": "#fc9f9f",
+    "dark": "#db4a4a"
+  },
+  "background": {
+    "light": "#fc9f9f",
+    "dark": "#dc494a"
+  },
+  "topbarLinks": [
+    {
+      "name": "Support Server",
+      "url": "https://discord.gg/ermbot"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Dashboard",
+    "url": "https://ermbot.xyz"
+  },
+  "anchors": [
+    {
+      "name": "Support",
+      "icon": "discord",
+      "color": "#f55555",
+      "url": "https://discord.gg/ermbot"
     },
     {
-        "theme": "prism"
+      "name": "Invite ERM",
+      "icon": "link",
+      "color": "#f55555",
+      "url": "https://discord.com/oauth2/authorize?client_id=978662093408591912&permissions=8&scope=bot%20applications.commands"
+    },
+    {
+      "name": "Dashboard",
+      "icon": "laptop",
+      "color": "#f55555",
+      "url": "https://discord.gg/ermbot"
+    },
+    {
+      "name": "Mod Panel",
+      "icon": "hammer",
+      "color": "#f55555",
+      "url": "https://discord.gg/ermbot"
     }
+  ],
+"navigation": [
+  {
+    "group": "ERM Bot",
+    "pages": ["/pages/ErmBot/welcome", "/pages/ErmBot/setup", "/pages/ErmBot/commands"]
+  },
+  {
+    "group": "Dashboard",
+    "pages": ["pages/Dashboard/dashboardoverview", "pages/Dashboard/basicsettingsdb", "pages/Dashboard/loarequestsdb", "pages/Dashboard/rasettingsdb", "pages/Dashboard/shiftmanagementdb", "pages/Dashboard/punishmentsettingsdb", "pages/Dashboard/gamesecuritydb", "pages/Dashboard/gameloggingdb", "pages/Dashboard/antipingsettingsdb", "pages/Dashboard/remindersdb"]
+  }
+],
+"integrations": {
+  "intercom": "APP_ID",
+  "frontchat": "CHAT_ID"
+},
+"feedback": {
+  "thumbsRating": true
+},
+{"theme": "prism"}
