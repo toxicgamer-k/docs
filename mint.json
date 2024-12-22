@@ -1,3 +1,4 @@
+[
 {
   "name": "ERM Bot",
 "logo": {
@@ -67,5 +68,6 @@
 },
 "feedback": {
   "thumbsRating": true
-},
+}},
 {"theme": "prism"}
+]
