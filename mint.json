@@ -59,10 +59,6 @@
   {
     "group": "Dashboard",
     "pages": ["pages/Dashboard/dashboardoverview", "pages/Dashboard/basicsettingsdb", "pages/Dashboard/loarequestsdb", "pages/Dashboard/rasettingsdb", "pages/Dashboard/shiftmanagementdb", "pages/Dashboard/punishmentsettingsdb", "pages/Dashboard/gamesecuritydb", "pages/Dashboard/gameloggingdb", "pages/Dashboard/antipingsettingsdb", "pages/Dashboard/remindersdb"]
-  },
-  {
-    "group": "Change Log",
-    "pages": ["/pages/Changelogs/web1.4"]
   }
 ],
 "integrations": {
@@ -72,3 +68,4 @@
 "feedback": {
   "thumbsRating": true
 }
+"theme": "prism"
