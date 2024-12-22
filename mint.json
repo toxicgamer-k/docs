@@ -51,7 +51,7 @@
       "url": "https://discord.gg/ermbot"
     }
   ],
-  "navigation": [
+"navigation": [
   {
     "group": "ERM Bot",
     "pages": ["/pages/ErmBot/welcome", "/pages/ErmBot/setup", "/pages/ErmBot/commands"]
