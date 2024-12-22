@@ -1,10 +1,10 @@
 {
   "name": "ERM Bot",
-"logo": {
-  "light": "/logo/ERMLogoDocsLightMode.svg",
-  "dark": "/logo/ERMDocsTitleDark.svg",
-  "href": "https://ermbot.mintlify.app/welcome"
-},
+  "logo": {
+    "light": "/logo/ERMLogoDocsLightMode.svg",
+    "dark": "/logo/ERMDocsTitleDark.svg",
+    "href": "https://ermbot.mintlify.app/welcome"
+  },
   "favicon": "/logo/ermlogo.png",
   "colors": {
     "primary": "#db514f",
@@ -25,7 +25,6 @@
     "name": "Dashboard",
     "url": "https://ermbot.xyz"
   },
-{
   "anchors": [
     {
       "name": "Support",
